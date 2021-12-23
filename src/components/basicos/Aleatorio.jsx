@@ -16,6 +16,6 @@ export default (props) => {
        <p><strong>Valor Máximo: </strong> {max} </p>
        <p><strong>Valor Escolhido: </strong> {aleatorio} </p>
     </div>
-    )
+    );
 
 }
