@@ -9,4 +9,4 @@ ReactDom.render(
         {tag}
     </div>,
         document.getElementById('root')
-)
+);
