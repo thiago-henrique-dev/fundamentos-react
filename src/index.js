@@ -1,10 +1,12 @@
 import ReactDom from "react-dom";
+import React from "react";
 
 
-const el = document.getElementById('root')  // Pegar um elemento pelo ID
-ReactDom.render('Olá React!!!', el) // el - vai renderizar na nossa página o react
+const tag =  <strong>Olá React!</strong>
 
-/*ReactDOM.render(
-    'Ola React',
+ReactDom.render(
+    <div>
+        {tag}
+    </div>,
         document.getElementById('root')
-)*/ // Outra forma de realizar
+)
