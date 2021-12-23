@@ -8,7 +8,7 @@ import Primeiro from './components/basicos/Primeiro'
 ReactDom.render(
     <div>
         <Primeiro></Primeiro>
-        <Primeiro></Primeiro>
+    
     </div>,
         document.getElementById('root')
 );
