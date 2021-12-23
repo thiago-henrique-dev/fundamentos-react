@@ -1,3 +1,4 @@
+import './App.css'
 import React from 'react'
 import Card from  './components/layout/Card'
 import Aleatorio from './components/basicos/Aleatorio'
@@ -7,9 +8,12 @@ import Primeiro from './components/basicos/Primeiro'
 
 export default () => {
     return (
-        <div id="app">
+        <div className="App">
 
         <h1>Fundamentos React</h1>
+
+        <div className="Cards">
+
 
         <Card titulo="Desafio aleatorio">
             <Aleatorio min={1} max={60}/>
@@ -33,6 +37,7 @@ export default () => {
         </Card>
 
         
+        </div>
         </div>
 
     )

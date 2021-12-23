@@ -2,7 +2,8 @@ body {
     font-family: Oswald;
     background-color:  #222; /*cor do fundo*/
     color: #fff; /*cor da fonte*/
-    text-align: center
+    text-align: center;
+    font-size: 1.4rem
 }
 
 h1, h2, h3 {
