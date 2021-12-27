@@ -5,7 +5,7 @@ export default props => {
   
     const alunosLI = alunos.map(alunos => {
         return <li key={alunos.id}>
-               {alunos.id} - {alunos.nome} -> {alunos.nota}
+               {alunos.id} - {alunos.nome} - {alunos.nota}
         </li>
     })
 
@@ -16,7 +16,7 @@ export default props => {
                {alunosLI}
             </ul>
         </div>
-        
+
 
     )
     
