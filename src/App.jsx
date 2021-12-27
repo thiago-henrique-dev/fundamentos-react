@@ -6,6 +6,7 @@ import Fragmento from './components/basicos/Fragmento'
 import ComParametro from './components/basicos/ComParametro'
 import Primeiro from './components/basicos/Primeiro'
 import Familia from './components/basicos/Familia'
+import FamiliaMembro from './components/basicos/FamiliaMembro'
 
 export default () => {
     return (
@@ -16,7 +17,12 @@ export default () => {
         <div className="Cards">
 
         <Card titulo="#5 Familia Componente" color="#FA6900">
-           <Familia sobrenome="Ferreira"/>
+           <Familia sobrenome="Silva">
+           <FamiliaMembro nome="Thiago" />
+           
+           <FamiliaMembro nome="Ana"  /> 
+           <FamiliaMembro nome="Gustavo" /> 
+           </Familia> 
         </Card>
 
 
