@@ -6,7 +6,10 @@ import Fragmento from './components/basicos/Fragmento'
 import ComParametro from './components/basicos/ComParametro'
 import Primeiro from './components/basicos/Primeiro'
 import Familia from './components/basicos/Familia'
+<<<<<<< HEAD
 import ListaAlunos from './components/repetição/ListaAlunos'
+=======
+>>>>>>> c968b67d1aca0538d369fa2cb5345b98fc6e6ce6
 import FamiliaMembro from './components/basicos/FamiliaMembro'
 
 export default () => {
@@ -23,11 +26,20 @@ export default () => {
         </Card>
 
         <Card titulo="#5 Familia Componente" color="#FA6900">
+<<<<<<< HEAD
            <Familia sobrenome="Ferreira">
            <FamiliaMembro nome="Thiago" />
             <FamiliaMembro nome="Thiago" />
             <FamiliaMembro nome="Thiago" />
             </Familia>
+=======
+           <Familia sobrenome="Henriques">
+           <FamiliaMembro nome="Thiago" />
+           
+           <FamiliaMembro nome="Ana"  /> 
+           <FamiliaMembro nome="Gustavo" /> 
+           </Familia> 
+>>>>>>> c968b67d1aca0538d369fa2cb5345b98fc6e6ce6
         </Card>
 
 
