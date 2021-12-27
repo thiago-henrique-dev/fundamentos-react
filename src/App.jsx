@@ -9,6 +9,7 @@ import Familia from './components/basicos/Familia'
 import ListaAlunos from './components/repetição/ListaAlunos'
 import FamiliaMembro from './components/basicos/FamiliaMembro'
 import TabelaProdutos from './components/repetição/TabelaProdutos'
+import ParOuImpar from './components/condicional/ParOuImpar'
 
 export default () => {
     return (
@@ -17,10 +18,14 @@ export default () => {
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
+        <Card titulo="#8 Renderização Condicional " color="#982395">
+        <ParOuImpar numero={20}></ParOuImpar>
+      </Card>
+
+
+
         <Card titulo="#7 Desafio " color="#FF432E">
         <TabelaProdutos></TabelaProdutos>
-         
-         
       </Card>
 
         <Card titulo="#6 Repetição" color="#F4C65">
